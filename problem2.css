@@ -1,0 +1,185 @@
+/* css properties for entire page */
+body{
+    margin: 0;
+    padding: 10px;
+    height: 100%;
+    font-size: medium;
+    background-image: url("/restaurant/gradient.jpg")
+}
+.toolbar{
+  display: flex;
+    
+}
+/* css properties for nav bar  */
+.item{
+    color:black;
+    background-color:gold;
+    border: 1px solid gold;
+    margin:0 1%;
+    padding: 5px;
+    width:250px;
+    height: 20px;
+    text-align:center;
+    font-weight: bold;
+    text-decoration: none;
+}
+/* background img for menu  */
+.menu{ 
+   margin:1.5%;
+   background-image: url('/restaurant/menu1.jpg');
+   width: 68%;
+   height:35vw;
+   background-size: cover;
+   
+}
+.tacos,.taco2{
+    padding: 1%;
+    display: inline-block;
+    position: relative;
+    top: 20vw;
+    left: 2%;
+    background-color:rgb(218,165,32,0.85) ;
+}
+.taco2{
+    margin-top:8px;
+}
+
+.price1{
+   background-color: yellow;
+    float:right;
+    
+    padding: 4% 12%;
+    position: relative;
+    bottom:36vw;
+    text-align: center;
+
+}
+.dish1{
+    font-size:14px;
+}
+.price2{
+    background-color: yellow;
+   float: right;
+   display: inline;
+   position: relative;
+   bottom:18vw;
+   left: 29%;
+   padding: 4% 12%;
+   margin-top:1%;
+}
+.taco1,.beer1,.wine1,.music1{
+   
+
+    cursor: pointer;
+    text-align: center;
+width: 23.5vw;
+}
+.beer1,.wine1,.music1{
+    margin-left: 2%;
+}
+.taco1{
+    margin-left: 2%;
+}
+.row,.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row2{
+    margin:1.5%;
+    background-color: white;
+    display: flex;
+    width:95vw;
+
+}
+.taco4{
+    position: relative;
+    top: 10vh;
+}
+#head{
+    /* giving the font family for text */
+    font-family: Georgia, 'Times New Roman', Times, serifsss;
+    font-weight: 600;
+}
+.button{
+    background-color: gold;
+    cursor: pointer;
+    position: relative;
+    bottom: 2vh;
+}
+ 
+.column{
+    width:20vw;
+   padding: 1.5%;
+  
+  
+}
+.col,.col2,.col3,.col4,.col5{
+    margin-left: 1%;
+    width: 15vw;
+}
+/* css media querries for the page to be responsive */
+@media only screen and (max-width:1100px){
+    .price1,.price2{
+width: 3vw;
+margin-left: 4vw;
+height:5vh;
+
+    }
+    .cost,.dish1{
+        font-size: smaller;
+        
+    }
+    .tacos,.taco2{
+        font-size: xx-small;
+    }
+    .taco{
+        position: relative;
+        bottom:5vh;
+        background-size: auto; 
+    }
+    .tacoimg{
+        width: 60vw;
+    }
+    .taco4{
+        font-size: small;
+        position: relative;
+       bottom:6vh;
+       right: 4%;
+       align-items: center;
+    }
+    .button{
+        position: relative;
+        right:4svw;
+    }
+ 
+    .row2{
+        background-size: cover;
+    }
+}
+@media screen and (max-width:800px){
+.price1,.price2{
+    width: 5vw;
+    height: 6vh;
+
+}
+}
+@media screen and (max-width:450px){
+    .tacoimg{
+        width: 30vw;
+        
+    }
+    .taco4{
+        font-size: xx-small;
+        position: relative;
+       right: 6%;
+        align-items: center;
+       top: 1vh;
+    }
+    .button{
+        font-size: xx-small;
+        position: relative;
+       bottom: 10vh;
+        right:6vw;
+    }
+}

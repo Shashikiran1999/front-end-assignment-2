@@ -1,0 +1,173 @@
+/* setting entire website with same font family */
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row1,.row3,.row4,.row7{
+    background-color:rgba(8, 25, 71, 0.836);
+   
+}
+.row1b,#row3a,.row4b,.row7b{
+    margin-left: 20%;
+}
+/* setting up the proper position for different rows  */
+.row1c,.row4c,.row7c{
+    color:rgb(25, 213, 219);
+    position: relative;
+    left: 75%;
+  bottom: 10vh;
+}
+.row1d,.r3c,.row4d,.row7d{
+    color: white;
+    /* to remove the underline */
+    text-decoration: none;
+    margin: 0 0.5vw;
+   
+}
+.row1e,.row4e,.row7e{
+    position: relative;
+    left:65%;
+    bottom: 8vh;
+}
+.row1g{
+    /* color for particular text in the row */
+    color:rgb(25, 213, 219);
+    position: relative;
+    left: 35%;
+}
+.row1h{
+    color: white;
+    position: relative;
+    left: 30%;
+}
+.btn{
+  background-color: rgba(8, 25, 71, 0.836);
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+}
+.row2{
+    display: inline-flex;
+    position: relative;
+    left: 20vw;
+   
+}
+.row2aa,.row2bb,.row2cc{
+    width:20vw;
+}
+.row2bb,.row2cc{
+    margin-left:2vw;
+}
+#r2b,#r2c{
+    margin-left: 2vw;
+}
+.row3b{
+    position: relative;
+    left: 65%;
+    bottom: 6vh;
+}
+#row3a{
+    padding: 2%;
+    color: rgb(25, 213, 219);
+}
+.row4b{
+    color: white;
+}
+/* center alinging the text and giving particular background color */
+.row5,.row8{
+    text-align: center;
+    background-color: rgb(6, 223, 140);
+}
+
+.row6a{
+    width: 40%;
+    padding-left: 15px;
+    margin-left: 25vw;
+    margin-top: 2vw;
+    /* particular text or img floats to left */
+    float: left;
+    font-style: italic;
+}
+.row6c,.row6e{
+    
+    position: relative;
+    left:8vw;
+}
+.row6b{
+    display: inline-block;
+    /* including the padding and border of element in the width and height */
+    box-sizing:border-box;
+    width: 25vw;
+    position: relative;
+    left: 2vw;
+    /* a border of thickness 3px styled in groove with color */
+    border:3px groove rgb(101, 101, 211);
+   
+}
+.row6d{
+    display: inline-block;
+    box-sizing:border-box;
+    width: 25vw;
+    position: relative;
+    left: 2vw;
+    top: 28vh;
+    border:3px groove rgb(101, 101, 211);
+}
+#r12a{
+    width: 40%;
+    padding-left: 15px;
+
+}
+.row9a,.row10a{
+    display:grid;
+    margin-left:20%;
+}
+.row9b{
+    
+    position: relative;
+    left: 40%;
+    bottom: 40vh;
+}
+.time{
+    position:relative;
+    top: 6vw;
+}
+.row10{
+  margin-top:-18vw;
+    
+}
+.row10b{
+    position: relative;
+    left: 25%;
+    bottom: 25vh;
+}
+#width,#width2,#col2{
+margin-left: -20vw;
+position: relative;
+bottom: 20vh;
+}
+#button{
+    background-color: rgb(10, 143, 39);
+    width: 10%;
+    height: 5vh;
+    border-style: none;
+    color: white;
+}
+.col1{
+    position: relative;
+    left: 40vw;
+    bottom: 35vw;
+}
+#speaker1{
+    display: inline;
+    width: 20vw;
+    position: relative;
+    left: 2.5vw;
+}
+#speaker2{
+    /* the element to be inline */
+    display: inline;
+    width: 20vw;
+    position: relative;
+    left:2.5vw;
+   
+}
